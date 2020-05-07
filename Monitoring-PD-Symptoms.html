@@ -53,10 +53,10 @@
       <div class="banner_inner d-flex align-items-center">
           <div class="container">
               <div class="banner_content text-center">
-                  <h2>Project NAME HERE</h2>
+                  <h2>Monitoring PD Symptoms: Bradykinesia</h2>
                   <div class="page_link">
-                      <a href="index.html">Home</a>
-                      <a href="portfolio-details.html">Project NAME HERE</a>
+                      <!-- <a href="index.html">Home</a> -->
+                      <!-- <a href="portfolio-details.html">Monitoring PD Symptoms: Bradykinesia</a> -->
                   </div>
               </div>
           </div>
@@ -73,19 +73,31 @@
             <div class="row">
               <div class="col-12">
                   <div class="left_img">
-										<h3> MINI TITLE</h3>
+										<h3>Physiological Issue</h3>
 										<br> <!-- This is a Break -->
-                      <img class="img-fluid" src="img/portfolio/portfolio-details.jpg" alt="">
-											<p> I Like ryan miles :)</p>
-												<h3> MINI TITLE</h3>
-											<img class="img-fluid" src="img/portfolio/portfolio-details.jpg" alt="">
-											<p> I Like ryan miles :)</p>
-												<h3> MINI TITLE</h3>
-											<img class="img-fluid" src="img/portfolio/portfolio-details.jpg" alt="">
-											<p> I Like ryan miles :)</p>
-												<h3> MINI TITLE</h3>
-											<img class="img-fluid" src="img/portfolio/portfolio-details.jpg" alt="">
-											<p> I Like ryan miles :)</p>
+
+											<p> Parkinson’s Disease is a progressive neurodegenerative disorder that results in low dopaminergic activity in the brain and hinders motor function. Common side effects of Parkinson’s Disease include tremors, bradykinesia, limb rigidity, and gait problems. The goal of this course was to create a method to quantitatively monitor a Parkinson's Disease (PD) symptom, given that PD is typically evaluated with the subjective Unified Parkinson's Disease Rating Scale. This project focuses on bradykinesia, which can be characterized as slowness of movement when performing repetitive tasks such as finger tapping, pronation/supination of the hand, and foot tapping as well as the ability to perform voluntary actions. We chose to create a solution that would monitor bradykinesia specifically because bradykinesia affects almost all Parkinson's disease patients at some point in there lifetime and bradykinesia is expressed consistently in all limbs of the body, as opposed to tremors, which have sporadic expression and need to be monitored continuously. </p>
+  									<img class="img-fluid" src="img/parkinson_exam_small.jpg" alt="">
+										<h3> </h3>
+										<br>
+												<h3> Unmet Need and Problem Definition</h3>
+												<h3> </h3>
+												<br>
+											<p> Bradykinesia is currently monitored using the Modified Bradykinesia Rating Scale (MBRS), which assesses bradykinesia severity through four motor skills: finger tapping, hand grasping, pronation/supination movement, and foot tapping. However, evalatuation of patient performance during these tasks is completely subjective because visual assesment is used to assign patients a performance score, and score assignment for task performance can vary between doctors with different experiences. Therefore, we wanted to create a device that measured angular velocity, angular displacement(amplitude), and frequency of the pronation/supination task (where a patient extends their arm and rotates their palm to face the ceiling and then the floor repeatedly as fast as they can). We then would provide these three parameters to a physician to assist them in objectively determining a MRDS score.  </p>
+											<img class="img-fluid" src="img/prone.jpg" alt="">
+											<h3> </h3>
+											<br>
+												<h3> Proof of Concept</h3>
+												<h3> </h3>
+												<br>
+
+											<p> The proof of concept consisted of a wooden base with a PVC handle that would be parallel to the ground. At the end of the handle, a inertial measurement device (IMU) was placed perpendicular to the handle axis to measure angular velocity, amplitude, and frequency of the pronation supination task. The patient would grasp the handle with their palm facing the floor, and would rotate the handle (which can only rotate 180 degrees) back and forth as fully and as fast as possible for a given time period. Collecting quantitative data would allow a doctor to monitor bradykinesia severity in a patient long-term and allow them to properly adjust the patients medication prescription as needed. <br> <br> We created an experiment to determine if the measured angular velocity and angular displacement of the subject performing the pronation/supination task would be affected by whether or not the subject received complete clinical instructions on how to properly perform the task, to assess the effect of human error. Incomplete instructions did not mention the proper form to be used, they only mentioned to rotate the handle as fast as possible with the largest amplitude as possible. Complete instructions mentioned both how to perform the task (as mentioned in the first set of instructions) and that the patient should perform the task with their arm fully extended and kept as straight as possible. <br> <br> It was determined that there was no significant difference between the data collected before and after proper instruction for healthy subjects, which means if a patient does not receive or follow the exact clinical instructions, the data collected will not be significantly impacted. Although this increased accepted patient input, it would be necessary in the future to make adjustments to the device so that it may determine the difference between proper and improper use. Additionally, if more time and resources were available, an algorithm would be created to determine and assign a quantitative score based on the combination of angular velocity, amplitude, and frequency during the pronation/supination task. This scoring algorithm would be be improved and adjusted through collaboration with neurologists and through the testing of Parkinson's patients.   </p>
+											<img class="img-fluid" src="img/pd_device_small.png" alt="">
+											<h3> </h3>
+											<br>
+												<!-- <h3> MINI TITLE</h3> -->
+											<!-- <img class="img-fluid" src="img/portfolio/portfolio-details.jpg" alt=""> -->
+											<!-- <p> I Like ryan miles :)</p> -->
                   </div>
               </div>
             </div>
